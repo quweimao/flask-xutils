@@ -1,2 +1,2 @@
 # flask-xutils
-flask版的工具
+flask版的工具集
