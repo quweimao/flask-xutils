@@ -1,6 +1,9 @@
 from flask import jsonify
 
 
+__all__ = ['success', 'error', 'json_success', 'json_error']
+
+
 def success(_data=None, code=0, msg='SUCCESS', **kwargs):
     res = dict(code=code, msg=msg)
     if _data is not None:

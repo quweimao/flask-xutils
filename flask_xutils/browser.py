@@ -1,6 +1,9 @@
 from flask import request
 
 
+__all__ = ['is_wechat', 'get_useragent', 'get_ip']
+
+
 def is_wechat():
     if request:
         ua = request.headers['User-Agent'].lower()
