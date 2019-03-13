@@ -1,0 +1,14 @@
+__name__ = 'flask-xutils'
+__description__ = 'Common toolsets for rapid and efficient development of flask Web.'
+__url__ = 'https://github.com/quweimao/flask-xutils'
+__version_info__ = ('0', '1', '0')
+__version__ = '.'.join(__version_info__)
+__fullname__ = '-'.join((__name__, __version__))
+__author__ = 'zhuxiongxian'
+__author_email__ = 'zhuxiongxian@gmail.com'
+__maintainer__ = 'zhuxiongxian'
+__maintainer_email__ = 'zhuxiongxian@gmail.com'
+__license__ = 'BSD'
+__copyright__ = '(c) 2019 by zhuxiongxian'
+__source__ = 'https://github.com/quweimao/flask-xutils'
+__keywords__ = 'flask-xutils flask utils'
